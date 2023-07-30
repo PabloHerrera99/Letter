@@ -13,7 +13,4 @@ class Phrase:
     def __repr__(self) -> str:
         return str(self.palabras)
 
-if __name__ == '__main__':
-    b = Phrase()
-    b.encode('anana hola') 
-    print(b)
+    
